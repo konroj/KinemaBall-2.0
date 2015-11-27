@@ -1,0 +1,6 @@
+framework module MPPlot {
+  umbrella header "MPPlot-umbrella.h"
+
+  export *
+  module * { export * }
+}

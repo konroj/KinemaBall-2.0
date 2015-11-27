@@ -1,0 +1,41 @@
+PODS:
+  - Color-Picker-for-iOS (2.0.2)
+  - CorePlot (2.0)
+  - JVFloatLabeledTextField (1.1.0)
+  - MagicalRecord (2.3.0)
+  - MBCircularProgressBar (0.3.2)
+  - MPPlot (0.1.0)
+  - NKOColorPickerView (0.5)
+  - OpenCV (3.0.0)
+
+DEPENDENCIES:
+  - Color-Picker-for-iOS
+  - CorePlot
+  - JVFloatLabeledTextField
+  - MagicalRecord
+  - MBCircularProgressBar
+  - MPPlot
+  - NKOColorPickerView
+  - OpenCV (from `https://github.com/afilippi/iOS-OpenCV3.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  OpenCV:
+    :branch: master
+    :git: https://github.com/afilippi/iOS-OpenCV3.git
+
+CHECKOUT OPTIONS:
+  OpenCV:
+    :commit: 93b4e91b00ce0950c87135d4e2e961b6cec1ad3c
+    :git: https://github.com/afilippi/iOS-OpenCV3.git
+
+SPEC CHECKSUMS:
+  Color-Picker-for-iOS: 4980589b3e3cfe7198f227dd50be9adb02d8bc0b
+  CorePlot: b7f422ad363f2b0e48152471d6da45ce232eb8c6
+  JVFloatLabeledTextField: ea4a3d8387ddd43724c472bb2b8ab39b79af05d4
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  MBCircularProgressBar: da24e75aa8a231564f10eb8d6d942fa78343486c
+  MPPlot: 722a40bbdfdbc5d929f0afc2c45e3b12b6816f4e
+  NKOColorPickerView: 895ca86fe5bd16f27c311ce8f5888907efee29ad
+  OpenCV: ac2d94e3b9f8c18f9c3281d21757259147119916
+
+COCOAPODS: 0.39.0

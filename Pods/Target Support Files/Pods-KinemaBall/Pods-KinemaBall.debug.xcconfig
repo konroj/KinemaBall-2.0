@@ -1,0 +1,9 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(inherited) $(PODS_ROOT)/OpenCV "${PODS_ROOT}/OpenCV"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/OpenCV"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Color_Picker_for_iOS.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/CorePlot.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/JVFloatLabeledTextField.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MBCircularProgressBar.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MPPlot.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MagicalRecord.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/NKOColorPickerView.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/OpenCV"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "Color_Picker_for_iOS" -framework "CorePlot" -framework "JVFloatLabeledTextField" -framework "MBCircularProgressBar" -framework "MPPlot" -framework "MagicalRecord" -framework "NKOColorPickerView" -framework "opencv2"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-KinemaBall
+PODS_ROOT = ${SRCROOT}/Pods

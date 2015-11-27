@@ -1,0 +1,1 @@
+../../../../../OpenCV/opencv2.framework/Versions/A/Headers/line_descriptor/descriptor.hpp
